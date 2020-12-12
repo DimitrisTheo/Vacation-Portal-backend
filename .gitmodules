@@ -1,0 +1,7 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/DimitrisTheo/Vacation-Portal-frontend.git
+[submodule "Vacation-Portal-frontend"]
+	path = Vacation-Portal-frontend
+	url = https://github.com/DimitrisTheo/Vacation-Portal-frontend.git
+	branch = main
