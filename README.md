@@ -3,6 +3,9 @@
 The portal **backend** was implemented in plain php7 as requested and developed in PhpStorm. I used the built-in server that the IDE offers to run and test the application so my requests were made to 'http://localhost:8000'.
 
 The portal **frontend** was implemented with VueJS framework and all its content is in the folder 'frontend' of the main project.
+**frontend** folder is imported as a submodule because the frontend app is a different git repository.
+
+Git clone repository to download the whole project files with: **git clone --recurse-submodules <url>**.
 
 ### Backend
 
@@ -48,7 +51,6 @@ To **test email functionality** for the portal I used my **personal gmail accoun
 ### Frontend
 
 The frontend was developed and configured in VueJS framework. It can be started with: `npm run serve` and the app will be served in 'http://localhost:8080'.
-All files are inside frontend folder  which is a git-submodule so make sure to run: git clone --recurse-submodules <url>.
 
 Frontend has a router.js file which is responsible to control navigation across the portal like the frontController.php in the backend.
 
